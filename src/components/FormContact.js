@@ -43,12 +43,12 @@ const FormContact = () => {
       <Row>
         <Form
           onSubmit={handleSubmit}
-          name="devis"
+          name="contact"
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-        <input type="hidden" name="form-name" value="devis" />
+        <input type="hidden" name="form-name" value="contact" />
           <Row>
             <Col md="6">
               <Form.Control
