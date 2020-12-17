@@ -1,5 +1,14 @@
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "variables";
+@import "../../node_modules/bootstrap/scss/functions";
 
-@import "layout";
-@import "navbar";
+/* My custom files here */
+@import "./@variables/bootstrap";
+@import "./components/base";
+@import "./components/hero-section";
+@import "./components/about";
+@import "./components/navbar";
+
+
+
+
+/* import the necessary Bootstrap files */
+@import "../../node_modules/bootstrap/scss/bootstrap";
