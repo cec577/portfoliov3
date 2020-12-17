@@ -1,0 +1,15 @@
+.section-about {
+  background: gray('100');
+}
+
+img {
+  height: 103px;
+
+  @media (min-width: map-get($grid-breakpoints, md)) {
+    height: 182px;
+  }
+
+  @media (min-width: map-get($grid-breakpoints, lg)) {
+    height: 255px;
+  }
+}
